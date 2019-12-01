@@ -280,11 +280,23 @@ a.social:hover {
   width: 100%;
   transition: all .5s;
 }
+
+.card .summit {
+  width: 100%;
+}
 .intro h2,
 .intro p {
   text-align: left;
 }
-
+.wad {
+  color: black;
+}
+.wad:visited {
+  color: black;
+}
+.wad:hover {
+  color: #6633ff;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
