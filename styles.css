@@ -278,11 +278,20 @@ a.social:hover {
 /* Elements */
 .images img {
   width: 100%;
+  transition: all .5s;
+}
+.intro h2,
+.intro p {
+  text-align: left;
 }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
+  .images img:hover {
+    transform: scale(1.5)
+  }
+
   .images img {
     display: inline-block;
     max-width: 300px;
