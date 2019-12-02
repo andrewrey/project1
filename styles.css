@@ -125,10 +125,7 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-photo {
-  background: url("images/profileimg.jpg");
-  background-size: cover;
-  background-position: center;
+header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -137,14 +134,15 @@ header .profile-photo {
   transition: all .5s;
   display: inline-block;
 }
-header .profile-photo:hover {
+header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
   background: url("images/profileskull.jpg");
   background-size: cover;
   background-position: center;
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 0;
+  height: 0;
+  padding: 75px;
   border-radius: 50%;
   border: 3px solid red;
 
